@@ -25,6 +25,7 @@ export default {
             build: '',
             html: '',
             entry: '',
+            favicon: '',
             src: path.resolve(__dirname, '..', '..', 'src'),
             locales: '',
             buildLocales: '',
