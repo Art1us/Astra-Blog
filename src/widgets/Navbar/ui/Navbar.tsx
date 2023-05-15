@@ -57,7 +57,8 @@ export const Navbar = memo(({ className }: NavbarProps) => {
                     <header className={classNames(mainClass, {}, [className])}>
                         <Text
                             className={cls.appName}
-                            title={t('Ulbi TV App')}
+                            // eslint-disable-next-line i18next/no-literal-string
+                            title="Astra Blog"
                             theme={TextTheme.INVERTED}
                         />
                         <AppLink
